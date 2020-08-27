@@ -8,7 +8,7 @@ export default function App() {
     <View>
       <Text>
       </Text>
-      {/* <Card></Card> */}
+  <Card userName = {'Игорь'}></Card>
     </View>
   )
 }
