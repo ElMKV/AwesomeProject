@@ -6,9 +6,23 @@ import Card from './components/Card'
 export default function App() {
   return (
     <View>
-      <Text>
-      </Text>
-  <Card userName = {'Игорь'}></Card>
+      <ScrollView>
+        <Card></Card>
+        <Card 
+        userName={'Игорь'}
+        userPhoto = 'https://picsum.photos/40'
+        ></Card>
+        <Card 
+        userName={'Игорь'}
+        userPhoto = 'https://picsum.photos/40'
+        photo = 'https://picsum.photos/400'
+        ></Card>
+        <Card>
+          <Text>Описание фото</Text>
+        </Card>
+      </ScrollView>
+
+
     </View>
   )
 }
